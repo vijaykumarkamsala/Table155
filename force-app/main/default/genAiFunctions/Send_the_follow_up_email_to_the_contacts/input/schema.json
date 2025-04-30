@@ -1,0 +1,14 @@
+{
+  "required" : [ "accountIds" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "accountIds" : {
+      "title" : "accountIds",
+      "description" : "Find the account id from the user or check for the latest account id mentioned in the chat and pass it to sendFollowUpEmails method",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

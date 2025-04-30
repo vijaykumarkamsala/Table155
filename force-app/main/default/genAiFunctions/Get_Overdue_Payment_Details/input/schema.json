@@ -1,0 +1,13 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "accountIds" : {
+      "title" : "accountIds",
+      "description" : "Get the account id from the user and pass it to the getOverduePaymentDetails method and if account id is not present and the user input is like \"Get the pending payment details \" then create a new empty list and send it to the same method",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
