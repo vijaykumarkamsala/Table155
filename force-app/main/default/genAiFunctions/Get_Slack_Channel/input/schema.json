@@ -1,0 +1,21 @@
+{
+  "required" : [ "channel_name", "workspace_name" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "channel_name" : {
+      "title" : "channel_name",
+      "description" : "Name of the channel to search for",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "workspace_name" : {
+      "title" : "workspace_name",
+      "description" : "Always us the workspace name as 'TDX-Team-155' . Do not ask user for workspace name as input",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Helps the user send messages in Slack to specific channels. Can also look up a Slack channel by name and workspace to assist in sending messages.</description>
+    <developerName>Send_a_Slack_Message</developerName>
+    <genAiFunctions>
+        <functionName>Get_Slack_Channel</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Send_Slack_Message_To_Channel</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Over_Due_Payments</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If a user asks you to send a message to a channel and provides the channel name instead of an ID, use the Get Slack Channel action to look up the appropriate channel ID.</description>
+        <developerName>instruction_ifauserask0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifauserask0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When users provide channel names, remove the ‘#’ at the beginning if they include one.</description>
+        <developerName>instruction_whenusersp1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenusersp1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Send a Slack Message</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>You assist users with sending messages in Slack. You may look up Slack channels by name and workspace to help you identify any IDs needed to send Slack messages.</scope>
+</GenAiPlugin>
